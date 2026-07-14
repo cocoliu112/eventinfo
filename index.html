@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑客松成果競賽 議程</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Microsoft JhengHei", "PingFang TC", "Helvetica Neue", Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 24px;
+    color: #24303f;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  .banner {
+    background: linear-gradient(135deg, #4361ee 0%, #7209b7 100%);
+    color: #fff;
+    padding: 36px 32px 28px;
+    text-align: center;
+  }
+  .banner h1 { margin: 0; font-size: 30px; letter-spacing: 2px; }
+  .banner .subtitle { margin-top: 10px; font-size: 16px; opacity: 0.92; letter-spacing: 1px; }
+  .content { padding: 28px 32px 36px; }
+  .logo-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 26px;
+  }
+  .logo-box {
+    flex: 1;
+    height: 90px;
+    border: 2px dashed #b9c2d8;
+    border-radius: 10px;
+    background: #f7f9fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8a94a8;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .legend {
+    background: #eef2ff;
+    border-left: 5px solid #4361ee;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 26px;
+    font-size: 15px;
+  }
+  .legend strong { color: #4361ee; }
+  h2 {
+    font-size: 19px;
+    color: #3a0ca3;
+    border-bottom: 2px solid #e0e4f0;
+    padding-bottom: 8px;
+    margin: 30px 0 14px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin-bottom: 8px; }
+  th {
+    background: #4361ee;
+    color: #fff;
+    padding: 12px 14px;
+    text-align: left;
+    font-weight: 600;
+  }
+  td { padding: 11px 14px; border-bottom: 1px solid #e6e9f2; vertical-align: top; }
+  tbody tr:nth-child(even) { background: #f7f9fc; }
+  tbody tr:hover { background: #eef2ff; }
+  .time-cell { font-weight: 700; color: #3a0ca3; white-space: nowrap; width: 120px; }
+  .team-name { color: #888; letter-spacing: 4px; }
+  .weight { font-weight: 700; color: #7209b7; text-align: center; white-space: nowrap; }
+  .total-row { background: #ede4ff !important; }
+  .total-row td { font-weight: 700; color: #3a0ca3; border-top: 2px solid #7209b7; }
+  .note { font-size: 13px; color: #6b7280; margin-top: 6px; font-style: italic; }
+  .footer {
+    text-align: center; font-size: 13px; color: #9aa3b2;
+    padding: 18px; border-top: 1px solid #eef0f5;
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .container { box-shadow: none; }
+    tbody tr:hover { background: transparent; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="banner">
+      <h1>黑客松成果競賽 議程</h1>
+      <div class="subtitle">南一 &times; 遠傳 &times; 微軟</div>
+    </div>
+    <div class="content">
+      <div class="logo-row">
+        <div class="logo-box">南一 Logo</div>
+        <div class="logo-box">遠傳 Logo</div>
+        <div class="logo-box">微軟 Logo</div>
+      </div>
+
+      <div class="legend">
+        <strong>評審陣容：</strong>南一長官　/　遠傳主管 &times;1　/　微軟 &times;1（邀約中）
+      </div>
+
+      <h2>活動議程</h2>
+      <table>
+        <thead>
+          <tr><th style="width:120px;">時間</th><th>活動內容</th><th>備註</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="time-cell">9:00 - 9:30</td><td>報到</td><td>評審入場（南一長官／遠傳主管*1／微軟*1（邀約中））</td></tr>
+          <tr><td class="time-cell">9:30 - 9:45</td><td>長官致詞</td><td>—</td></tr>
+          <tr><td class="time-cell">9:45 - 9:50</td><td>評審與評分方式說明</td><td>—</td></tr>
+          <tr><td class="time-cell">9:50 - 11:10</td><td>各隊簡報，共 10 隊</td><td>每隊 8 分鐘（含 Q&amp;A）</td></tr>
+          <tr><td class="time-cell">11:10 - 11:30</td><td>評選計分 + 休息</td><td>評審統計分數</td></tr>
+          <tr><td class="time-cell">11:30 - 12:00</td><td>頒獎 + 大合照</td><td>—</td></tr>
+        </tbody>
+      </table>
+
+      <h2>各隊簡報時間分配（共 10 組，每組 8 分鐘）</h2>
+      <table>
+        <thead>
+          <tr><th style="width:120px;">時間</th><th style="width:90px;">組別</th><th>組別名稱</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="time-cell">9:50 - 9:58</td><td>第 1 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">9:58 - 10:06</td><td>第 2 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">10:06 - 10:14</td><td>第 3 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">10:14 - 10:22</td><td>第 4 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">10:22 - 10:30</td><td>第 5 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">10:30 - 10:38</td><td>第 6 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">10:38 - 10:46</td><td>第 7 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">10:46 - 10:54</td><td>第 8 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">10:54 - 11:02</td><td>第 9 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+          <tr><td class="time-cell">11:02 - 11:10</td><td>第 10 組</td><td class="team-name">＿＿＿＿＿＿＿</td></tr>
+        </tbody>
+      </table>
+      <div class="note">建議每組：6 分鐘簡報 + 2 分鐘 Q&amp;A</div>
+
+      <h2>評分項目與權重</h2>
+      <table>
+        <thead>
+          <tr><th style="width:180px;">評分項目</th><th>說明</th><th style="width:90px; text-align:center;">權重</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>創意與創新性</td><td>題目切入角度、解決方案的創新程度</td><td class="weight">25%</td></tr>
+          <tr><td>技術實作與完整度</td><td>系統／原型的完成度、技術難度與穩定性</td><td class="weight">25%</td></tr>
+          <tr><td>商業價值與應用性</td><td>實際應用場景、市場潛力與可落地性</td><td class="weight">20%</td></tr>
+          <tr><td>簡報表達與展示</td><td>簡報邏輯清晰度、時間掌控、Demo 呈現</td><td class="weight">15%</td></tr>
+          <tr><td>團隊合作與可行性</td><td>團隊分工、後續發展與可執行性</td><td class="weight">15%</td></tr>
+          <tr class="total-row"><td>合計</td><td>—</td><td class="weight">100%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="footer">黑客松成果競賽 · 議程表</div>
+  </div>
+</body>
+</html>
